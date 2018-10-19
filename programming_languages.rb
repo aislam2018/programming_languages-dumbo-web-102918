@@ -13,6 +13,7 @@ def reformat_languages(languages)
    new_hash[lang][:style] << style
    if !new_hash[lang][type_hash]
      new_hash[lang][key] = val
+   end
  end 
   end
   end
